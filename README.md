@@ -6,8 +6,11 @@
 
 ![My App Logo](images/0.png)
 
-* `dt-sdk build .`
+### 2. Open Dynatrace environment and go to Credential Vault
 
+![My App Logo](images/1.png)
+
+### 3. Go to Extension
 ## Running
 
 * `dt-sdk run`
@@ -37,3 +40,4 @@ Contains dependency and other python metadata
 
 
 Used during simulation only, contains the activation definition for the extension
+
