@@ -11,7 +11,12 @@
 ![My App Logo](images/1.png)
 
 ### 3. Go to Extension
-## Running
+
+  #### Classic
+  ![My App Logo](images/2.png)
+  
+  #### AppEngine
+  ![My App Logo](images/3.png)
 
 * `dt-sdk run`
 
@@ -40,4 +45,5 @@ Contains dependency and other python metadata
 
 
 Used during simulation only, contains the activation definition for the extension
+
 
