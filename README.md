@@ -1,5 +1,16 @@
 # Port Availability Extension for Dynatrace
 
+A Dynatrace extension to monitor the availability of network endpoints (host:port) at regular intervals. This extension reports metrics to Dynatrace, allowing you to track and alert on port availability.
+
+## Features
+
+- Monitors the availability of TCP ports on remote hosts.
+- Configurable check intervals and timeouts.
+- Reports metrics to Dynatrace for dashboards and alerts.
+- Graceful shutdown and thread management.
+- Lightweight and scalable for up to 200 endpoints on a 4-core, 8 GB RAM server.
+  
+
 ## How to add the extension to your environment
 
 ### 1. Go to certificates folder and download the ca.pem
@@ -26,32 +37,9 @@
   #### AppEngine
   ![My App Logo](images/4.png)
 
-## Developing
+### 6. Verify Extension Data
 
-1. Clone this repository
-2. Install dependencies with `pip install .`
-3. Increase the version under `extension/extension.yaml` after modifications
-4. Run `dt-sdk build`
-
-## Structure
-
-### port_availability folder
-
-Contains the python code for the extension
-
-### extension folder
-
-Contains the yaml and activation definitions for the framework v2 extension
-
-### setup.py
-
-Contains dependency and other python metadata
-
-### activation.json
-
-
-Used during simulation only, contains the activation definition for the extension
-
+![My App Logo](images/6.png)
 
 
 
