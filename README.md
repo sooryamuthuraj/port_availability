@@ -18,7 +18,13 @@
   #### AppEngine
   ![My App Logo](images/3.png)
 
-* `dt-sdk run`
+### 5. Configure Extension
+
+  #### Classic
+  ![My App Logo](images/4.png)
+  
+  #### AppEngine
+  ![My App Logo](images/5.png)
 
 ## Developing
 
@@ -45,5 +51,6 @@ Contains dependency and other python metadata
 
 
 Used during simulation only, contains the activation definition for the extension
+
 
 
