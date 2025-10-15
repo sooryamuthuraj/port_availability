@@ -1,0 +1,16 @@
+{
+	"enabled": true,
+	"description": "port_availability activation",
+	"version": "0.0.1",
+	"activationContext": "REMOTE",
+	"pythonRemote": {
+		"endpoints": [
+			{
+				"host": "35.193.189.183",
+				"port": "8080",
+				"timeout": 5,
+				"schedule_interval": 3
+			}
+		]
+	}
+}

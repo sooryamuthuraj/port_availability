@@ -1,0 +1,17 @@
+name: custom:port-availability
+version: 0.0.2
+minDynatraceVersion: "1.285"
+author:
+  name: "Dynatrace"
+
+python:
+  runtime:
+    module: port_availability
+    version:
+      min: "3.10"
+
+  activation:
+    remote:
+      path: activationSchema.json
+    local:
+      path: activationSchema.json
