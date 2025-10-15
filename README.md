@@ -1,6 +1,10 @@
-# port_availability extension
+# Port Availability Extension for Dynatrace
 
-## Building and signing
+## How to add the extension to your environment
+
+### 1. Go to certificates folder and download the ca.pem
+
+![My App Logo](images/0.png)
 
 * `dt-sdk build .`
 
@@ -30,5 +34,6 @@ Contains the yaml and activation definitions for the framework v2 extension
 Contains dependency and other python metadata
 
 ### activation.json
+
 
 Used during simulation only, contains the activation definition for the extension
