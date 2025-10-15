@@ -6,7 +6,7 @@
 	"pythonRemote": {
 		"endpoints": [
 			{
-				"host": "35.193.189.183",
+				"host": "121.0.0.1",
 				"port": "8080",
 				"timeout": 5,
 				"schedule_interval": 3
@@ -14,3 +14,4 @@
 		]
 	}
 }
+
