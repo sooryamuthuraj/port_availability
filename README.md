@@ -21,10 +21,10 @@
 ### 5. Configure Extension
 
   #### Classic
-  ![My App Logo](images/4.png)
+  ![My App Logo](images/5.png)
   
   #### AppEngine
-  ![My App Logo](images/5.png)
+  ![My App Logo](images/6.png)
 
 ## Developing
 
@@ -51,6 +51,7 @@ Contains dependency and other python metadata
 
 
 Used during simulation only, contains the activation definition for the extension
+
 
 
 
